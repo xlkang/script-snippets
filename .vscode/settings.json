@@ -1,0 +1,13 @@
+{
+    "liveServer.settings.port": 9999, //本地服务器端口
+    "liveServer.settings.root": "/", //设置根目录，也就是打开的文件会在该目录下找
+    "liveServer.settings.CustomBrowser": "chrome", //设置默认打开的浏览器
+    "liveServer.settings.useLocalIp": true,  //使用本地ip访问
+    //支持Debugger for chrome attach到live server
+    "liveServer.settings.ChromeDebuggingAttachment": true, 
+    //等待多长时间再刷新页面，
+    "liveServer.settings.wait": 100,
+    "liveServer.settings.useBrowserPreview": true,
+    // 开启一个进程用来给debugger for chrome  attach使用
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome --incognito --remote-debugging-port=9222",
+}

@@ -1,0 +1,13 @@
+{
+  "name": "autoscript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "xlkang",
+  "license": "MIT",
+  "scripts": {
+    "start": "browser-sync --files '**/*'"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.12"
+  }
+}

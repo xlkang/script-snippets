@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            //调试类型为chrome
+            "type": "chrome",
+            //关联另外一个进程进行debug，还有一个选项是lauch，直接启动进程
+            "request": "attach",
+            "name": "Live Server: Attach",
+            //访问端口，live server的9222端口，也就是上面配置的
+            "port": 9222,
+            "webRoot": "${workspaceFolder}",
+        },
+        // {
+        //     "type": "chrome",
+        //     "request": "launch",
+        //     "name": "Live Server: Launch",
+        //     "port": 9222,
+        //     "webRoot": "${workspaceFolder}"
+        // }
+    ]
+}
